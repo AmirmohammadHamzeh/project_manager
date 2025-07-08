@@ -17,5 +17,5 @@ CMD ["sh", "-c", "\
   python manage.py migrate && \
   echo 'prozhe run shod' && \
   echo 'mitoni swagger ro toye in urls bebini:' && \
-  echo 'http://localhost:8000' && \
+  echo 'http://localhost:8000/api/schema/swagger-ui/' && \
   python manage.py runserver 0.0.0.0:8000"]
